@@ -28,7 +28,7 @@ foreach ($file in $(Get-ChildItem $startingDir -recurse)) {
     Else {
         $filesProcessed++
         $filesBad++
-        Write-Host "$user no tiene permisos en $file"
+        Write-Host "$user has no rights for $file"
         Write-Output $actual | Add-Content -Path $outdoc
     }
 }
