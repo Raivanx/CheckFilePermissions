@@ -2,7 +2,7 @@
 
 # Enter username here, either by promt or defining the var in the doc of doing so by Input
 # $user = Read-Host "Input the sAMAccountName of user"
-$User = "admins. del dominio"
+$User = "John"
 # Enter the starting directory here, either by promt or defining the var in the doc of doing so by Input
 # $user = Read-Host "Input the sAMAccountName of user"
 $startingDir= "C:\Users\"
